@@ -43,8 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CajaDeCambio.cs" />
+    <Compile Include="IMovilidad.cs" />
+    <Compile Include="Motor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rodado.cs" />
+    <Compile Include="Rueda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
