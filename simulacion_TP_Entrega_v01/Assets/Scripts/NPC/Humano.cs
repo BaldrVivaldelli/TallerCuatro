@@ -55,5 +55,16 @@ public class Humano : MonoBehaviour, NPC {
         return _zombie;
     }
 
+	public void Escapar()
+	{
+		// Me llama zombie.cs -> ScareHuman()		(SendMessage("Escapar"))
+		// Acá es donde el zombie está a "x" distancia y el humano se asusta.
+	}
 
+	public void Die()
+	{
+		// Me llama Zombie.cs -> OnTriggerEnter()  (SendMessage("Die"))
+		// Acá entran en colision, o mejor dicho entra en el sensor (trigger) y se ejecuta esta funcion.
+		// Entonces acá es donde se convierte en zombie.
+	}
 }
