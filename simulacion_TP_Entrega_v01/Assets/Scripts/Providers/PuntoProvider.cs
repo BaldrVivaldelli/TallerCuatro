@@ -4,7 +4,7 @@ using UnityEngine;
 public class PuntoProvider : MonoBehaviour, Provider
 {
     private List<GameObject> puntos = new List<GameObject>();
-    void Start()
+    void Awake()
     {
         foreach (Punto punto in FindObjectsOfType(typeof(Punto)))
         {

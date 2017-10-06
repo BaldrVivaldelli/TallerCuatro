@@ -5,7 +5,7 @@ public class HumanoProvider : MonoBehaviour, Provider
 {
     [SerializeField]
     private List<GameObject> humanos = new List<GameObject>();
-    void Start()
+    void Awake()
     {
         foreach (Humano humano in FindObjectsOfType(typeof(Humano)))
         {

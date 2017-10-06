@@ -16,7 +16,9 @@ public class Humano : MonoBehaviour, NPC {
     private IEnumerable<string> animations;
 
     // Use this for initialization
-    void Start () {
+    void Awake () {
+		animator = GetComponent<Animator> ();
+
         Zombie.humanos.Add(this);
         animations = new string[] { "Walk", "SprintJump" };
         velocidad = 5;

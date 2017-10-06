@@ -6,7 +6,7 @@ public class ZombieProvider : MonoBehaviour, Provider
 {
     [SerializeField]
     private List<GameObject> zombies = new List<GameObject>();
-    void Start()
+    void Awake()
     {
         foreach (Zombie zombie in FindObjectsOfType(typeof(Zombie)))
         {

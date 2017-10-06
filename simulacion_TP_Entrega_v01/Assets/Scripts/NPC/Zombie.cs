@@ -60,7 +60,7 @@ public class Zombie : MonoBehaviour, NPC
     /// </summary>
     public void ScareHuman()
     {
-        _humano.SendMessage("Escapar", gameObject);
+       // _humano.SendMessage("Escapar", gameObject);
     }
 
     /// <summary>
