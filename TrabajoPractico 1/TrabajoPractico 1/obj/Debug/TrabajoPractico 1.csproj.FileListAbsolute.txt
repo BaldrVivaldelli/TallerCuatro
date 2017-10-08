@@ -1,0 +1,6 @@
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\bin\Debug\TrabajoPractico 1.exe.config
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\bin\Debug\TrabajoPractico 1.exe
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\bin\Debug\TrabajoPractico 1.pdb
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\obj\Debug\TrabajoPractico 1.csprojResolveAssemblyReference.cache
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\obj\Debug\TrabajoPractico 1.exe
+C:\Users\Augusto Vivaldelli\Desktop\FacultadTallerCuatro\TrabajoPractico 1\TrabajoPractico 1\obj\Debug\TrabajoPractico 1.pdb
