@@ -1,0 +1,29 @@
+﻿@model  WebApplication1.Models.AlumnosViewModel
+
+
+<h2>Alumno</h2>
+
+<form action="/Home/Materia" method="post">
+
+    <input type="text" name="materia" value="materia" />
+    <input type="text" name="nota" value="nota" />
+    <input type="text" name="alumno" value="alumno" />
+    <input type="submit" name="enviar" value="enviar" />
+</form>
+       
+<address>
+    <strong>@Model.Nombre :</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>@Model.Apellido :</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>@Model.Legajo :</strong>   <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address> 
+
+@if (Model.Materias != null)
+{
+
+foreach ( var materia in Model.Materias)
+{
+    @materia.Alumno;
+    @materia.Fecha;
+    @materia.Nota;
+};
+}
